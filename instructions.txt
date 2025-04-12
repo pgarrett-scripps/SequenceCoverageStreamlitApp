@@ -1,0 +1,9 @@
+This repo will contain a streamlit applciations which accepts files which 
+contain peptide sequences. 1 per line. It also accepts a protein sequence.
+
+Using peptacular (https://peptacular.readthedocs.io/en/latest/api/peptacular.html#module-peptacular.sequence.sequence_funcs)
+can you generate sequence coverage matrixes for each uploaded file. Then create a plot using plotly, which will have
+the amino acids as the x axis, and then the y axis will be each file uploaded. I would like to have horizontal bars
+to depict the sequence coverage for each filetype.
+
+Create app.py as well as a requirements.txt file and readme
